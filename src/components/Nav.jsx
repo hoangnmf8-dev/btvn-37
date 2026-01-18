@@ -5,11 +5,11 @@ export default function Nav() {
 
   return (
     <div className=''>
-      <div className='flex justify-between items-center px-8 h-[80px]'>
+      <div className='flex justify-between items-center px-8 h-20'>
         <div className='text-2xl font-bold'>Wizard</div>
         <div className='flex items-center gap-3'>
           <span>Step {step} / 4</span>
-          <img className='block w-15 aspect-square object-cover rounded-full' src="/public/github-6980894_960_720.webp" alt="Github_logo" />
+          <img className='block w-15 aspect-square object-cover rounded-full' src="/github-6980894_960_720.webp" alt="Github_logo" />
         </div>
       </div>
       <div className='h-1.5 bg-gray-600 relative'>
